@@ -1,0 +1,45 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContent {
+  background: white;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.logoutConfirmation {
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+.logoutButton {
+  background-color: grey;
+  color: #fff;
+  border: none;
+  margin-top: 1px;
+  margin-right: 1cm;
+  border-radius: 4px;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+.cancelButton {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  margin-top: 1px;
+  margin-left: 1cm;
+  border-radius: 4px;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
